@@ -36,7 +36,7 @@ app.post("/bfhl",(req,res)=>{
       letter.push(temp);
     }
   });
-
+  // aman
   var res2={...l,"odd_numbers":odd,"even_numbers":even,"alphabets":letter};
   try {
     res.status(200).json(res2);
